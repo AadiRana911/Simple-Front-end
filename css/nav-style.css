@@ -1,9 +1,11 @@
 header, nav{
+    position: relative;
     margin: 0;
     padding: 0;
     background: rgba(247, 73, 125, 0.99);
     height: 80px;
     width: 100%;
+    padding-left: 16px;
 }
 label.logo{
     margin-left: 10px;
