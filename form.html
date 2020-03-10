@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/form-style.css">
+        <link rel="stylesheet" href="css/nav-style.css">
+        <link rel="stylesheet" href="css/footer-style.css">
+        <link rel="stylesheet" href="css/fontawesome-free-5.12.1-web/css/all.css">
+    </head>
+    <body>
+        <div class="body">
+            <header>
+                <div>
+                    <nav>
+                        <label class="logo">LIW</label>
+                        <ul style="list-style: none;">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a class="active" href="#">Sign Up</a></li>
+                            <li><a href="#">View Data</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div style="padding: 143px;"></div>
+            <div class="box">
+                <h2>Sign Up</h2>
+                <form action="POST">
+                    <div class="form">
+                        <input type="text" name="name" autocomplete="off" required>
+                        <label for="" class="label-name">
+                            <span class="content-name">Name</span>
+                        </label>
+                    </div>
+                    
+                    <div class="form">
+                        <input type="email" name="email" autocomplete="off" required>
+                        <label for="" class="label-name">
+                            <span class="content-name">Email</span>
+                        </label>
+                    </div>
+        
+                    <div class="form">
+                        <input type="text" name="address" autocomplete="off" required>
+                        <label for="" class="label-name">
+                            <span class="content-name">Address</span>
+                        </label>
+                    </div>
+        
+                    <div class="form" style="margin-top: 5px;">
+                        Gender <br>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </div>
+        
+                    <div class="form">
+                            Pets <br>
+                            <input type="checkbox">Cats
+                            <input type="checkbox">Dogs
+                    </div>
+        
+                    <div class="form">
+                        Continent<br>
+                        <select name="continent" id="">
+                            <option value="asia">Asia</option>
+                            <option value="Africa">Africa</option>
+                            <option value="America">America</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Antarctica">Antarctica</option>
+                        </select>
+                    </div>
+        
+                    <div class="form">
+                        <span class="label-name">
+                            <input type="submit" value="submit">
+                        </span>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+        <div class="foot" style="height: 20px; width: 100%; background: rgb(63, 85, 158);margin-top: 17.5%;">
+            <marquee behavior="scroll" direction="left"><i class="far fa-copyright"></i> 2020. Asad Imtiaz Rana & Varda Quraishi. All rights reserved</marquee>
+        </div>
+    </body>
+</html>

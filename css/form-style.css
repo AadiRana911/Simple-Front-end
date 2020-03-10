@@ -1,0 +1,221 @@
+body{
+    height: 60vh;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url('../img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.body{
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: rgba(101, 100, 116, 0.5);
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* border: 1px solid rgba(0, 0, 0, 0.4); */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8)
+}
+
+.box h2{
+    margin: 0 0 0px;
+    padding: 0;
+    color: rgba(241, 42, 102, 0.836);
+    text-transform: uppercase;
+}
+
+.form{
+    width: 100%;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+}
+
+.form input{
+    width: 100%;
+    height: 100%;
+    color: rgb(6, 4, 160);
+    padding-top: 12px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 25%;
+    height: 25%;
+    padding: 0;
+    margin-left: 0;
+}
+select{
+    width: 100%;
+    height: 50%;
+    background: rgba(101, 100, 116, 0.4);
+    border: none;
+}
+
+.form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+
+.form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #f7497d;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+}
+
+.content-name{
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    transition: all .5s ease;
+}
+
+.form input:focus + .label-name .content-name,
+.form input:valid + .label-name .content-name{
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #f7497d;
+}
+
+.form input:focus + .label-name::after,
+.form input:valid + .label-name::after{
+    transform: translateX(0%);
+}
+
+.box input[type="submit"]{
+    border-bottom: none;
+    cursor: pointer;
+    background: rgba(241, 42, 102, 0.836);
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+}
+
+input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}
+.foot{
+    position: relative;
+    margin-bottom: 0;
+}
+
+/* body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url('img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
+}
+.box h2{
+    margin: 0 0 40px;
+    padding: 0;
+    color: #f7497d;
+    text-transform: uppercase;
+}
+
+.box input{
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.box textarea{
+    height: 80px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+.box input,
+.box textarea{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+    background: none;
+}
+
+.box textarea{
+    margin-bottom: 20px;
+}
+
+.box input[type="submit"]{
+    border-bottom: none;
+    cursor: pointer;
+    background: #f7497d;
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.box form div{
+    position: relative;
+}
+
+.box form div label{
+    position: absolute;
+    align-items: flex-start;
+    top: 10px;
+    pointer-events: none;
+} */
