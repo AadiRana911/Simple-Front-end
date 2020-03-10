@@ -126,7 +126,7 @@ select{
     border-bottom: 2px solid #999;
 }
 
-input[type=date]::-webkit-datetime-edit-text {
+/* input[type=date]::-webkit-datetime-edit-text {
     -webkit-appearance: none;
     display: none;
 }
@@ -141,7 +141,7 @@ input[type=date]::-webkit-datetime-edit-day-field {
 input[type=date]::-webkit-datetime-edit-year-field {
     -webkit-appearance: none;
     display: none;
-}
+} */
 .foot{
     position: relative;
     margin-bottom: 0;
