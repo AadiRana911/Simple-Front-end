@@ -28,7 +28,7 @@ body{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 .content-table thead tr{
-    background-color: rgba(241, 42, 102, 0.836);
+    background-color: #f7497d;
     color: white;
     text-align: left;
     font-weight: bold;
