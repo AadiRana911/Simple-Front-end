@@ -1,8 +1,8 @@
 body{
     height: 60vh;
     display: flex;
-    /* justify-content: space-around; */
-    /* align-items: center; */
+    /* justify-content: space-around;
+    align-items: center; */
     flex-direction: column;
     font-family: sans-serif;
     margin: 0;
@@ -12,11 +12,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.body{
+    background: rgba(6, 4, 160,0.2);
+}
 .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 20px;    
 }
 h1{
     font-family: fantasy;

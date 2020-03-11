@@ -5,28 +5,29 @@ header, nav{
     background: rgba(247, 73, 125, 0.99);
     height: 80px;
     width: 100%;
-    padding-left: 16px;
+    /* padding-left: 16px; */
 }
 label.logo{
-    margin-left: 10px;
+    margin: 0;
+    padding: 0;
     background: linear-gradient(to right,rgba(6, 4, 160,0.8),#f7497d);
     color: white;
     font-size: 50px;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 70px;
     font-weight: bold;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
 }
 
 nav ul{
     float: right;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 nav ul li a{

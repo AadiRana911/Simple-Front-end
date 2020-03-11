@@ -1,6 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    background: url('../img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
 }
 .body{
     justify-content: space-around;
@@ -36,10 +40,15 @@ body{
 }
 .content-table tbody tr{
     border-bottom: 1px solid #dddddd;
+    color: lightgray;
+    font-weight: 500;
 }
 .content-table tbody tr:nth-of-type(even){
-    background: #f3f3f3;
+    background: rgba(241, 42, 102, 0.6);
+}
+.content-table tbody tr:nth-of-type(odd){
+    background: rgba(6, 4, 160,0.6);
 }
 .content-table tbody tr:last-of-type{
-    border-bottom: 2px solid rgba(241, 42, 102, 0.836);
+    border-bottom: 2px solid #f7497d;
 }
